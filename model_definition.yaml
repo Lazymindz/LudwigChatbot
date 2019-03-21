@@ -1,0 +1,15 @@
+input_features:
+  -
+    name: userentry
+    type: sequence
+    encoder: rnn
+    cell_type: lstm
+    reduce_output: null
+
+output_features:
+  -
+    name: botentry
+    type: sequence
+    decoder: generator
+    cell_type: lstm
+    attention: bahdanau

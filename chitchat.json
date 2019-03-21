@@ -1,0 +1,98 @@
+{
+    "botentry": {
+        "idx2str": [
+            "<PAD>",
+            "<UNK>",
+            "thanks!",
+            "nan",
+            "can",
+            "I",
+            "do",
+            "something",
+            "to",
+            "help",
+            "you?"
+        ],
+        "max_sequence_length": 7,
+        "preprocessing": {
+            "fill_value": "",
+            "format": "space",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 20000,
+            "padding": "right",
+            "padding_symbol": "<PAD>",
+            "sequence_length_limit": 256,
+            "unknown_symbol": "<UNK>"
+        },
+        "str2freq": {
+            "<PAD>": 0,
+            "<UNK>": 0,
+            "I": 1,
+            "can": 1,
+            "do": 1,
+            "help": 1,
+            "nan": 1,
+            "something": 1,
+            "thanks!": 1,
+            "to": 1,
+            "you?": 1
+        },
+        "str2idx": {
+            "<PAD>": 0,
+            "<UNK>": 1,
+            "I": 5,
+            "can": 4,
+            "do": 6,
+            "help": 9,
+            "nan": 3,
+            "something": 7,
+            "thanks!": 2,
+            "to": 8,
+            "you?": 10
+        },
+        "vocab_size": 11
+    },
+    "userentry": {
+        "idx2str": [
+            "<PAD>",
+            "<UNK>",
+            "Doing",
+            "well\\\\",
+            "Congratulations!",
+            "I\u2019m",
+            "sorry\\\\"
+        ],
+        "max_sequence_length": 2,
+        "preprocessing": {
+            "fill_value": "",
+            "format": "space",
+            "lowercase": false,
+            "missing_value_strategy": "fill_with_const",
+            "most_common": 20000,
+            "padding": "right",
+            "padding_symbol": "<PAD>",
+            "sequence_length_limit": 256,
+            "unknown_symbol": "<UNK>"
+        },
+        "str2freq": {
+            "<PAD>": 0,
+            "<UNK>": 0,
+            "Congratulations!": 1,
+            "Doing": 1,
+            "I\u2019m": 1,
+            "sorry\\\\": 1,
+            "well\\\\": 1
+        },
+        "str2idx": {
+            "<PAD>": 0,
+            "<UNK>": 1,
+            "Congratulations!": 4,
+            "Doing": 2,
+            "I\u2019m": 5,
+            "sorry\\\\": 6,
+            "well\\\\": 3
+        },
+        "vocab_size": 7
+    }
+}

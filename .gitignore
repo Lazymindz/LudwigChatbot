@@ -1,0 +1,8 @@
+# Ignore the virutal environment and folders
+devbuilds/*
+.vscode/*
+__pycache__/*
+logs/*
+results/*
+
+# Files
